@@ -1,0 +1,23 @@
+{
+  "name": "youtube-downloader-backend",
+  "version": "1.0.0",
+  "description": "Making youtube downloader as product",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Hasnat",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^113.0.0",
+    "mqtt": "^4.3.7",
+    "nodemon": "^2.0.21",
+    "youtube-playlist": "^1.0.4",
+    "ytdl-core": "^4.11.2"
+  }
+}
