@@ -67,7 +67,7 @@ app.use("/getInfo/", async (req, res) => {
 // 	console.log(message.toString());
 // 	client.publish("device/led", "Hello mqtt hasnat checking");
 // });
-
-app.listen(8090 || process.env.PORT, () => {
-	console.log("server started on port " + 8090);
+const port = 8090 || process.env.PORT;
+app.listen(port, () => {
+	console.log("server started on port " + port);
 });
